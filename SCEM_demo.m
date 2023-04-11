@@ -3,7 +3,7 @@ close all
 addpath(genpath(pwd))
 %% load dataset
 % dataset#1 to #5, where dataset#1-#5 are used in the paper.
-dataset = '#5'; % #1 to #5
+dataset = '#1'; % #1 to #5
 opt.normlized = 'on';
 Load_dataset % For other datasets, we recommend a similar pre-processing as in "Load_dataset"
 h = fspecial('average',5);
@@ -28,5 +28,5 @@ time = clock;
 clc
 fprintf('\n');fprintf('The total computational time of SCEM is %i \n',etime(clock,time));
 DI2  = suplabel2DI(Cosup,p2');
-figure;subplot(121);imshow(remove_outlier(DI1),[]);title('²îÒìÍ¼1')
-subplot(122);imshow(remove_outlier(DI2),[]);title('²îÒìÍ¼2')
+figure;subplot(121);imshow(remove_outlier(DI1),[]);title('Â²Ã®Ã’Ã¬ÃÂ¼1')
+subplot(122);imshow(remove_outlier(DI2),[]);title('Â²Ã®Ã’Ã¬ÃÂ¼2')
