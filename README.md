@@ -7,16 +7,16 @@
 
 解压Zip文件(GMMSP-superpixel-master)，运行SCEM_demo.m。代码已在Matlab 2016a版本下测试。
 
-论文引用 
+论文引用   
 
-@article{:/publisher/Science China Press/journal/SCIENTIA SINICA Informationis///10.1360/SSI-2022-0408, 
-  author = "sun yuli,lei lin,kuang gangyao", 
-  title = "基于结构一致性能量模型的异源光学和SAR图像变化检测", 
-  journal = "SCIENTIA SINICA Informationis", 
-  year = "2023", 
- pages = "-", 
-  url = "http://www.sciengine.com/publisher/Science China Press/journal/SCIENTIA SINICA Informationis///10.1360/SSI-2022-0408, 
-  doi = "https://doi.org/10.1360/SSI-2022-0408" 
+@article{:/publisher/Science China Press/journal/SCIENTIA SINICA Informationis///10.1360/SSI-2022-0408,   
+  author = "sun yuli,lei lin,kuang gangyao",   
+  title = "基于结构一致性能量模型的异源光学和SAR图像变化检测",   
+  journal = "SCIENTIA SINICA Informationis",   
+  year = "2023",   
+ pages = "-",   
+  url = "http://www.sciengine.com/publisher/Science China Press/journal/SCIENTIA SINICA Informationis///10.1360/SSI-2022-0408,   
+  doi = "https://doi.org/10.1360/SSI-2022-0408"   
 }
 
 如果有其它疑问，请邮件联系我：sunyuli@mail.ustc.edu.cn。
