@@ -1,4 +1,4 @@
-function [sup_pixel,N] = GMMSP_Cosegmentation_v2(image_t1,image_t2,seg_scal)
+function [sup_pixel,N] = GMMSP_Cosegmentation(image_t1,image_t2,seg_scal)
 [h, w, b1]=size(image_t1);
 [~, ~, b2]=size(image_t2);
 v_x = floor(sqrt(h*w/seg_scal));
